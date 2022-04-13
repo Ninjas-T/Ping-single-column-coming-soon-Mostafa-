@@ -8,7 +8,7 @@ main {
   width: 88%;
   margin: 40px auto;
 }
-
+/*********************************Start section***************************************************/
 section img {
   margin: 0 auto;
   display: block;
@@ -30,11 +30,11 @@ section p {
   width: max-content;
   color: rgba(0, 0, 0, 0.682);
 }
+/*********************************Start Form***************************************************/
 form {
   margin: 30px auto;
   width: 90%;
 }
-
 form * {
   display: block;
   width: 100%;
@@ -53,12 +53,13 @@ form * {
     0 2px 4px 3px rgba(0, 0, 0, 0.06);
   cursor: pointer;
 }
-
+/*********************************Start img figure***************************************************/
 figure img {
   margin: 50px auto 80px;
   display: block;
   width: 100%;
 }
+/*********************************Start Footer**************************************************/
 footer ul {
   display: flex;
   justify-content: space-between;
@@ -84,8 +85,7 @@ footer p {
   margin: 30px auto 0;
   font-size: 13px;
 }
-
-/* mediam screen tablet */
+/*********************************Start mediam screen tablet**************************************************/
 @media (min-width: 768px) {
   main {
     width: 80%;
@@ -109,8 +109,7 @@ footer p {
     font-size: 15px;
   }
 }
-
-/*large screen laptop*/
+/*********************************Start large screen laptopt**************************************************/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   main {
     width: 70%;
@@ -125,8 +124,7 @@ footer p {
     font-size: 17px;
   }
 }
-
-/*X large screen*/
+/*********************************Start X large screen**************************************************/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   main {
     width: 65%;
@@ -138,9 +136,7 @@ footer p {
     font-size: 22px;
   }
 }
-
-/*XX large screen*/
-
+/*********************************Start XX large screen**************************************************/
 @media (min-width: 1400px) {
   main {
     width: 58%;
