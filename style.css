@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+main{
+    width: 88%;
+    margin: 40px  auto;
+    border: 2px solid red;
+}
+section {
+    border: 2px solid red;
+
+}
+section img {
+    border: 2px solid red;
+margin: 0 auto;
+display: block;
+}
+section h2{
+    border: 2px solid red;
+margin: 35px auto 0;
+width: max-content;
+font-size: 28px;
+color: hsl(0, 0%, 59%) ;
+font-weight: 400;
+
+}
+section h2 span{
+    padding-left: 7.5px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+section p{
+    border: 2px solid red;
+margin: 18px auto 0;
+width: max-content;
+}
+form{
+    margin: 30px auto;
+width: 90%;
+}
+
+
+form *{
+    display: block;
+    width: 100%;
+    padding: 0.8rem ;
+    border-radius: 30px;
+}
+ #email{
+
+    border:solid 1px #4f7df394;
+}
+#submit{
+    
+    background-color:#4f7df3 ;
+    border: none;
+    color: white;
+    margin-top: 11px;
+    box-shadow: 0 4px 6px 5px rgba(0, 0, 0, 0.1), 0 2px 4px 3px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+
+} 
+figure{
+    border: 2px solid red;
+}
+figure img{
+    border: 2px solid red;
+    margin: 50px auto 80px;
+display: block;
+width: 100%;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 2px solid red;
+width: 185px;
+margin: 0px auto ;
+
+}
+footer ul li{
+border: #4f7df338 solid 0.5px ;
+padding: 10px 10px 8px;
+text-align: center;
+margin: 0px auto ;
+border-radius: 50%;
+box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1), 0 2px 1px 1px rgba(0, 0, 0, 0.06);
+}
+i{
+    font-size: 20px;
+}
+
+footer p{
+    border: 2px solid red;
+width: max-content;
+margin: 30px auto 0;
+font-size: 13px;
+}
